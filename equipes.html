@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodada 0</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; }
+        .team-card { width: 200px; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        .team-header { background-color: #007bff; color: white; padding: 10px; font-weight: bold; border-radius: 5px 5px 0 0; }
+        .team-member { padding: 10px; border-top: 1px solid #ddd; }
+        .member-out { background-color: #ffcccc; } /* Fundo vermelho para quem saiu */
+        .member-in { background-color: #ccffcc; } /* Fundo verde para quem entrou */
+    </style>
+</head>
+<body>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 1</div>
+        
+        <div class="team-member ">Amanda da Silva Freire</div>
+        
+        <div class="team-member ">Fernanda de Freitas Ribas</div>
+        
+        <div class="team-member ">Gabriel Alexander Barbosa</div>
+        
+        <div class="team-member ">Gustavo Benitez Frehse</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 2</div>
+        
+        <div class="team-member ">Angelo Andrioli Netho</div>
+        
+        <div class="team-member ">Gustavo Muchinski Vieira</div>
+        
+        <div class="team-member ">Júlia Azevedo Bratfisch</div>
+        
+        <div class="team-member ">Tamires Paschoalin</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 3</div>
+        
+        <div class="team-member ">Ana Paula Borowsky de Borba</div>
+        
+        <div class="team-member ">Bruno Padovan Soares de Souza</div>
+        
+        <div class="team-member ">Guilherme Peruci Felippe</div>
+        
+        <div class="team-member ">Juliana Beatriz da Silva Rodrigues</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 4</div>
+        
+        <div class="team-member ">Carla Ferraz de Araujo</div>
+        
+        <div class="team-member ">Giovanna Maciel de Castro</div>
+        
+        <div class="team-member ">Rodrigo Kenji Takahashi Veneroso</div>
+        
+        <div class="team-member ">Vicente Kalinoski Parmigiani</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 5</div>
+        
+        <div class="team-member ">André Luiz Kovalski</div>
+        
+        <div class="team-member ">Juliana Segalla</div>
+        
+        <div class="team-member ">Ruby Rodrigues Rosa</div>
+        
+        <div class="team-member ">Tiago Camargo Maciel dos Santos</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 6</div>
+        
+        <div class="team-member ">Akira Nagashima Jensen</div>
+        
+        <div class="team-member ">Bruno Marques Alves Maciel</div>
+        
+        <div class="team-member ">Nicolas Amaral Lobo</div>
+        
+        <div class="team-member ">Yasmin Muraro Salamon</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 7</div>
+        
+        <div class="team-member ">Kelvin Cabral Ribas</div>
+        
+        <div class="team-member ">Laura Pimentel Cunha Brafman</div>
+        
+        <div class="team-member ">Paula Nogueira Galvão</div>
+        
+        <div class="team-member ">Rafael Honorio Venetikides</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 8</div>
+        
+        <div class="team-member ">Amandha Roberta de Lima Santos</div>
+        
+        <div class="team-member ">Caio Eduardo Ferreira de Miranda</div>
+        
+        <div class="team-member ">Rafaella Guerra Marinel Hurtado Somoza</div>
+        
+        <div class="team-member ">Sophia Post Ploposki</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 9</div>
+        
+        <div class="team-member ">Adrian Antônio de Souza Gomes</div>
+        
+        <div class="team-member ">Carolina Paes Rocha</div>
+        
+        <div class="team-member ">Lucas Dal Pra Brascher</div>
+        
+        <div class="team-member ">Mariana Luiza Siqueira</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 10</div>
+        
+        <div class="team-member ">Alana da Conceição Queiroz</div>
+        
+        <div class="team-member ">Débora de Araujo Veras</div>
+        
+        <div class="team-member ">Lucas Henrique Borille</div>
+        
+        <div class="team-member ">Sarah Maneira</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 11</div>
+        
+        <div class="team-member ">Débora Camila Gusso Guras</div>
+        
+        <div class="team-member ">Giovana Caroline Guertes</div>
+        
+        <div class="team-member ">Kamille Michels Fantinato de Moura</div>
+        
+        <div class="team-member ">Livia Rosembach Oliveira</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 12</div>
+        
+        <div class="team-member ">Ana Luísa Luy da Silva</div>
+        
+        <div class="team-member ">Guilhermo Silveira</div>
+        
+        <div class="team-member ">Layla Kleine Pereira de Mello</div>
+        
+        <div class="team-member ">Polliana Santana da Rosa</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 13</div>
+        
+        <div class="team-member ">Ana Clara Do Nascimento Agner</div>
+        
+        <div class="team-member ">Daniela Tamy Yuki</div>
+        
+        <div class="team-member ">João Pedro Veloso de Sá</div>
+        
+        <div class="team-member ">Letícia Beatriz Hillebrant</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 14</div>
+        
+        <div class="team-member ">Ana Julia Rocha Cezanoski</div>
+        
+        <div class="team-member ">Lara Leder</div>
+        
+        <div class="team-member ">Mirela Proença</div>
+        
+        <div class="team-member ">Sophia Assunção Zola dos Santos</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 15</div>
+        
+        <div class="team-member ">Daniela dos Santos Lima</div>
+        
+        <div class="team-member ">João Pedro Mendes</div>
+        
+        <div class="team-member ">Luisa Cotinho de Melo</div>
+        
+        <div class="team-member ">Rodrigo Yuske Yamauchi</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 16</div>
+        
+        <div class="team-member ">Beatriz Perotto Muniz</div>
+        
+        <div class="team-member ">Luiz Antonio Rosa Cardoso</div>
+        
+        <div class="team-member ">Pedro Fernando Wiezel Martins</div>
+        
+        <div class="team-member ">Priscila Celeste Chiang</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 17</div>
+        
+        <div class="team-member ">Aruni Serena van Amstel</div>
+        
+        <div class="team-member ">Gabriela Freire Portugal</div>
+        
+        <div class="team-member ">Thayssa Daniele Pacheco Romão</div>
+        
+        <div class="team-member ">Willian Roberto Seidel</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 18</div>
+        
+        <div class="team-member ">Amanda Pereira Barros</div>
+        
+        <div class="team-member ">Enzo Enrico Boteon Chiuratto</div>
+        
+        <div class="team-member ">Nicole Semkiv de Andrade Caetano</div>
+        
+        <div class="team-member ">Tiago Rodriguez Carneiro</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 19</div>
+        
+        <div class="team-member ">Agratha Cristina de Moura Dias</div>
+        
+        <div class="team-member ">Marcela Frasson Almeida</div>
+        
+        <div class="team-member ">Pedro Alessandrini Braiti</div>
+        
+        <div class="team-member ">Pedro Henrique Sudario da Silva</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 20</div>
+        
+        <div class="team-member ">Alyss Colin</div>
+        
+        <div class="team-member ">Ana Paula Gequelin Valesi</div>
+        
+        <div class="team-member ">Fábio Naconeczny da Silva</div>
+        
+        <div class="team-member ">João Vitor Oliveira dos Anjos</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 21</div>
+        
+        <div class="team-member ">Isadora Yassuko Maecawa Higa</div>
+        
+        <div class="team-member ">João Vitor de Freitas</div>
+        
+        <div class="team-member ">Otávio Augusto Fermino da Silva</div>
+        
+        <div class="team-member ">Thamara da Silva Nichelle</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 22</div>
+        
+        <div class="team-member ">Carlos Eduardo Domingues Hobmeier</div>
+        
+        <div class="team-member ">Fabiana Martins Budel</div>
+        
+        <div class="team-member ">Rafael Tavares Amaral</div>
+        
+        <div class="team-member ">Sabrina Duarte Uchôa Pereira</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 23</div>
+        
+        <div class="team-member ">Camili Vitória Jussiani Moreira</div>
+        
+        <div class="team-member ">Edson Guimarães do Vale</div>
+        
+        <div class="team-member ">Elice Maida Lima da Silva</div>
+        
+        <div class="team-member ">Lucas Augusto de Castro Coelho</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 24</div>
+        
+        <div class="team-member ">Gabriel Scholze Rosa</div>
+        
+        <div class="team-member ">Gustavo Chemin Ribeiro</div>
+        
+        <div class="team-member ">Livia Barbosa de Oliveira Silva</div>
+        
+        <div class="team-member ">Stephanie Nicole Bueno Azevedo</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 25</div>
+        
+        <div class="team-member ">Eduardo Baccon Bertol</div>
+        
+        <div class="team-member ">Milena Kaory Pinheiro Sawaki</div>
+        
+        <div class="team-member ">Renan de Rocco Pamplona</div>
+        
+        <div class="team-member ">Sahra Alves da Silva</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 26</div>
+        
+        <div class="team-member ">Andre Costa Castilhano</div>
+        
+        <div class="team-member ">Barbara Stella Gantzel dos Santos</div>
+        
+        <div class="team-member ">Celia Rafaelli Vieira</div>
+        
+        <div class="team-member ">Rafael Longhi Varella Guimarães</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 27</div>
+        
+        <div class="team-member ">Daniela Ayumi Shimohiro</div>
+        
+        <div class="team-member ">Everson Camargo Galvão</div>
+        
+        <div class="team-member ">Julia Helena Mendes De Almeida</div>
+        
+        <div class="team-member ">Matheus Sebastian Alencar de Carvalho</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 28</div>
+        
+        <div class="team-member ">Ana Julia Molinos Leite da Silva</div>
+        
+        <div class="team-member ">Lissa Deguti</div>
+        
+        <div class="team-member ">Matheus Kabbach Bordini do Amaral</div>
+        
+        <div class="team-member ">Tiago Bisolo Prestes</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 29</div>
+        
+        <div class="team-member ">Bruna Hunhoff</div>
+        
+        <div class="team-member ">Gustavo Hansen</div>
+        
+        <div class="team-member ">Luiza Gomide de Azeredo Costa</div>
+        
+        <div class="team-member ">Mateus Lima Da Cruz</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 30</div>
+        
+        <div class="team-member ">Akilah Rodas Medici</div>
+        
+        <div class="team-member ">Eduarda Ayumi Nakamura</div>
+        
+        <div class="team-member ">Eliz Helena Sampaio Franco</div>
+        
+        <div class="team-member ">Leandro Ceron Durau</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 31</div>
+        
+        <div class="team-member ">Aline Santos Fabienski</div>
+        
+        <div class="team-member ">Ayne Gabriele Figueiredo</div>
+        
+        <div class="team-member ">Giovanni Galarda Strasser</div>
+        
+        <div class="team-member ">Laise Mascarenhas Magalhães</div>
+        
+    </div>
+    
+    <div class="team-card">
+        <div class="team-header">Equipe 32</div>
+        
+        <div class="team-member ">Diego Matheus dos Santos</div>
+        
+        <div class="team-member ">Débora do Amaral Costa</div>
+        
+        <div class="team-member ">Heloisa de Oliveira Pinho</div>
+        
+        <div class="team-member ">Thiago Imai Lima</div>
+        
+    </div>
+    
+</body>
+</html>
